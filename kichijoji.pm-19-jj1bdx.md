@@ -54,7 +54,7 @@ Musashino City, Tokyo, Japan
 * `clock_gettime()`: defined since macOS Sierra 10.12 SDK
 * `clock_nanosleep()`: still *undefined*
 * So I need to build my own equivalent function to substitute `clock_nanosleep()`
-* macOS uses `mach_absolute_time()`, `mach_wait_until()`, `mach_timebase_unfo()`, etc., defined in `<mach/mach_time.h>`
+* macOS uses `mach_absolute_time()`, `mach_wait_until()`, `mach_timebase_info()`, etc., defined in `<mach/mach_time.h>`
 
 ---
 
